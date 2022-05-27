@@ -1,19 +1,13 @@
-# Simple todo list project
+# Todo-Task App
 
-To start the project you will need Docker and docker-compose we recommend you use linux although it is not necessary.
+A minimal Todo Task App where you can save and download your daily tasks. 
 
-First build with docker by navigating to the root directory of the project and running.
-```bash
-sudo docker-compose build
-```
 
-Now run the application.
-```
-sudo docker-compose up
-```
 
-This will start containers for mongodb, frontend and backend.
+## Tech Stack
 
-This application frontend if accessible at `http://localhost:8000/` and the backend at `http://localhost:8001/`
+**Client:** React, Next, TailwindCSS
 
-To stop the app press `Ctrl + C` and wait for all the containers to stop.
+**Server:** Node, Express , MongoD
+
+<img width="863" alt="image" src="https://user-images.githubusercontent.com/47719196/170639378-b00a7332-a5b3-4ba3-9d86-6729d7f9c46e.png">
